@@ -15,5 +15,20 @@
     transform: scale(0.5);
 }
 
-/* scale(1) is original size than 1 is smaller greater than 1 is bigger
+/* scale(1) is original size than 1 is smaller greater than 1 is bigger */
+
+#skew {
+    transform:skew(deg)
+}
+
+#translate {
+    transform:translate(125px)
+}
+
+/* translate (x) moves to the right if x is posiitive and left if x is negative */
+
+
+#chain {
+    transform: rotate(120deg) skew(-10deg);
+}
 
