@@ -1,4 +1,32 @@
-/* Step 1: Configure an element to be animated */
+/* Step 1: Configure an element to be animated using the shortcut "animation property which combines name, duration, iteration count, nd timing function into ONE LINE */
+
+#animated-emoji {
+    font-size: 50px;
+    display: inline-block;
+    animation: move-emoji 1.67s infinite ease-in-out;
+}
+
+/* define an animation sequence */
+
+@keyframes move-emoji {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+    50%{
+       transform: rotate(180deg) transform: scale(2.4);
+    }
+    100%{
+        transform: rotate(360deg);
+
+
+    }
+
+}
+
+
+
 
 #animated-shape {
     background: pink;
@@ -25,6 +53,8 @@
         transform: scale(5);}
     100% { background: pink;}
 }
+
+
 
 
 
